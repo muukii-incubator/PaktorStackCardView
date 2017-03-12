@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BA658B61E75F56E00A6E6CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA658B51E75F56E00A6E6CB /* AppDelegate.swift */; };
+		4BA658B81E75F56E00A6E6CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA658B71E75F56E00A6E6CB /* ViewController.swift */; };
+		4BA658BB1E75F56E00A6E6CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA658B91E75F56E00A6E6CB /* Main.storyboard */; };
+		4BA658BD1E75F56E00A6E6CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA658BC1E75F56E00A6E6CB /* Assets.xcassets */; };
+		4BA658C01E75F56E00A6E6CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA658BE1E75F56E00A6E6CB /* LaunchScreen.storyboard */; };
+		4BA658C81E75F58F00A6E6CB /* PaktorStackCardCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA658C71E75F58F00A6E6CB /* PaktorStackCardCollectionViewLayout.swift */; };
+		4BA658CA1E75F74F00A6E6CB /* RevealServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA658C91E75F74F00A6E6CB /* RevealServer.framework */; };
+		4BA658CC1E75F76700A6E6CB /* RevealServer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA658C91E75F74F00A6E6CB /* RevealServer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4BA658CD1E75F76700A6E6CB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4BA658CC1E75F76700A6E6CB /* RevealServer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4BA658B21E75F56E00A6E6CB /* PaktorStackCardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaktorStackCardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BA658B51E75F56E00A6E6CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BA658B71E75F56E00A6E6CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BA658BA1E75F56E00A6E6CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BA658BC1E75F56E00A6E6CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BA658BF1E75F56E00A6E6CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BA658C11E75F56E00A6E6CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BA658C71E75F58F00A6E6CB /* PaktorStackCardCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaktorStackCardCollectionViewLayout.swift; sourceTree = "<group>"; };
+		4BA658C91E75F74F00A6E6CB /* RevealServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RevealServer.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BA658AF1E75F56D00A6E6CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA658CA1E75F74F00A6E6CB /* RevealServer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BA658A91E75F56D00A6E6CB = {
+			isa = PBXGroup;
+			children = (
+				4BA658C91E75F74F00A6E6CB /* RevealServer.framework */,
+				4BA658B41E75F56E00A6E6CB /* PaktorStackCardView */,
+				4BA658B31E75F56E00A6E6CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BA658B31E75F56E00A6E6CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BA658B21E75F56E00A6E6CB /* PaktorStackCardView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BA658B41E75F56E00A6E6CB /* PaktorStackCardView */ = {
+			isa = PBXGroup;
+			children = (
+				4BA658B51E75F56E00A6E6CB /* AppDelegate.swift */,
+				4BA658B71E75F56E00A6E6CB /* ViewController.swift */,
+				4BA658C71E75F58F00A6E6CB /* PaktorStackCardCollectionViewLayout.swift */,
+				4BA658B91E75F56E00A6E6CB /* Main.storyboard */,
+				4BA658BC1E75F56E00A6E6CB /* Assets.xcassets */,
+				4BA658BE1E75F56E00A6E6CB /* LaunchScreen.storyboard */,
+				4BA658C11E75F56E00A6E6CB /* Info.plist */,
+			);
+			path = PaktorStackCardView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BA658B11E75F56D00A6E6CB /* PaktorStackCardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BA658C41E75F56E00A6E6CB /* Build configuration list for PBXNativeTarget "PaktorStackCardView" */;
+			buildPhases = (
+				4BA658AE1E75F56D00A6E6CB /* Sources */,
+				4BA658AF1E75F56D00A6E6CB /* Frameworks */,
+				4BA658B01E75F56D00A6E6CB /* Resources */,
+				4BA658CD1E75F76700A6E6CB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaktorStackCardView;
+			productName = PaktorStackCardView;
+			productReference = 4BA658B21E75F56E00A6E6CB /* PaktorStackCardView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BA658AA1E75F56D00A6E6CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = muukii;
+				TargetAttributes = {
+					4BA658B11E75F56D00A6E6CB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KU2QEJ9K3Z;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4BA658AD1E75F56D00A6E6CB /* Build configuration list for PBXProject "PaktorStackCardView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BA658A91E75F56D00A6E6CB;
+			productRefGroup = 4BA658B31E75F56E00A6E6CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BA658B11E75F56D00A6E6CB /* PaktorStackCardView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BA658B01E75F56D00A6E6CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA658C01E75F56E00A6E6CB /* LaunchScreen.storyboard in Resources */,
+				4BA658BD1E75F56E00A6E6CB /* Assets.xcassets in Resources */,
+				4BA658BB1E75F56E00A6E6CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BA658AE1E75F56D00A6E6CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA658B81E75F56E00A6E6CB /* ViewController.swift in Sources */,
+				4BA658C81E75F58F00A6E6CB /* PaktorStackCardCollectionViewLayout.swift in Sources */,
+				4BA658B61E75F56E00A6E6CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BA658B91E75F56E00A6E6CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BA658BA1E75F56E00A6E6CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BA658BE1E75F56E00A6E6CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BA658BF1E75F56E00A6E6CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BA658C21E75F56E00A6E6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BA658C31E75F56E00A6E6CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BA658C51E75F56E00A6E6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KU2QEJ9K3Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PaktorStackCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.muukii.PaktorStackCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4BA658C61E75F56E00A6E6CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KU2QEJ9K3Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PaktorStackCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.muukii.PaktorStackCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BA658AD1E75F56D00A6E6CB /* Build configuration list for PBXProject "PaktorStackCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BA658C21E75F56E00A6E6CB /* Debug */,
+				4BA658C31E75F56E00A6E6CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BA658C41E75F56E00A6E6CB /* Build configuration list for PBXNativeTarget "PaktorStackCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BA658C51E75F56E00A6E6CB /* Debug */,
+				4BA658C61E75F56E00A6E6CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BA658AA1E75F56D00A6E6CB /* Project object */;
+}
