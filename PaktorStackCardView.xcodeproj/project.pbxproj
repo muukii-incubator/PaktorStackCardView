@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B9567361E7705B500FA7EDE /* CardContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9567351E7705B500FA7EDE /* CardContainerView.swift */; };
+		4B9567381E77060600FA7EDE /* StackCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9567371E77060600FA7EDE /* StackCardView.swift */; };
 		4BA658B61E75F56E00A6E6CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA658B51E75F56E00A6E6CB /* AppDelegate.swift */; };
 		4BA658B81E75F56E00A6E6CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA658B71E75F56E00A6E6CB /* ViewController.swift */; };
 		4BA658BB1E75F56E00A6E6CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA658B91E75F56E00A6E6CB /* Main.storyboard */; };
@@ -32,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B9567351E7705B500FA7EDE /* CardContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardContainerView.swift; sourceTree = "<group>"; };
+		4B9567371E77060600FA7EDE /* StackCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackCardView.swift; sourceTree = "<group>"; };
 		4BA658B21E75F56E00A6E6CB /* PaktorStackCardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaktorStackCardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA658B51E75F56E00A6E6CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BA658B71E75F56E00A6E6CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 			children = (
 				4BA658B51E75F56E00A6E6CB /* AppDelegate.swift */,
 				4BA658B71E75F56E00A6E6CB /* ViewController.swift */,
+				4B9567371E77060600FA7EDE /* StackCardView.swift */,
+				4B9567351E7705B500FA7EDE /* CardContainerView.swift */,
 				4BA658C71E75F58F00A6E6CB /* PaktorStackCardCollectionViewLayout.swift */,
 				4BA658B91E75F56E00A6E6CB /* Main.storyboard */,
 				4BA658BC1E75F56E00A6E6CB /* Assets.xcassets */,
@@ -161,6 +167,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BA658B81E75F56E00A6E6CB /* ViewController.swift in Sources */,
+				4B9567381E77060600FA7EDE /* StackCardView.swift in Sources */,
+				4B9567361E7705B500FA7EDE /* CardContainerView.swift in Sources */,
 				4BA658C81E75F58F00A6E6CB /* PaktorStackCardCollectionViewLayout.swift in Sources */,
 				4BA658B61E75F56E00A6E6CB /* AppDelegate.swift in Sources */,
 			);
@@ -332,6 +340,7 @@
 				4BA658C61E75F56E00A6E6CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

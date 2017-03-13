@@ -10,24 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
-  private lazy var collectionView: UICollectionView = {
-    let layout = PaktorStackCardCollectionViewLayout()
-    let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
-    return collectionView
-  }()
+  private lazy var stackCardView = StackCardView(frame: .zero)
 
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    collectionView.translatesAutoresizingMaskIntoConstraints = false
-    view.addSubview(collectionView)
+    stackCardView.translatesAutoresizingMaskIntoConstraints = false
+    view.addSubview(stackCardView)
 
     NSLayoutConstraint.activate([
-      collectionView.topAnchor.constraint(equalTo: view.topAnchor),
-      collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
-      collectionView.rightAnchor.constraint(equalTo: view.rightAnchor),
-      collectionView.leftAnchor.constraint(equalTo: view.leftAnchor),
+      stackCardView.topAnchor.constraint(equalTo: view.topAnchor),
+      stackCardView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+      stackCardView.rightAnchor.constraint(equalTo: view.rightAnchor),
+      stackCardView.leftAnchor.constraint(equalTo: view.leftAnchor),
       ])
   }
-
 }
